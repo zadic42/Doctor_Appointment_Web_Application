@@ -1,2 +1,2 @@
-# Movie_Cafe
-A project used for demonstrating team collaboration.
+# Tour_Management_System
+A project that used for demonstarting team collaboration
