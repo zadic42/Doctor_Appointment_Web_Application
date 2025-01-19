@@ -1,23 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Afacad:ital,wght@1,400..700&family=Inter:opsz,wght@14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-
-*{
+* {
     font-family: Outfit;
 }
 
-.active hr{
+.active hr {
     @apply block
 }
 
-::-webkit-scrollbar{
-    @apply hidden
+@media (max-width:740px) {
+    .active  p{
+       @apply text-white bg-primary
+    }
 }
 
-@media (max-width:740px) {
-    .active p {
-        @apply text-white bg-primary
-    }
+::-webkit-scrollbar {
+    @apply hidden
 }
